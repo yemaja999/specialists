@@ -1,0 +1,11 @@
+export const bgColor = '#f9fafe';
+export const mainColor = '#3540ff';
+export const textColor = '#0f1d38';
+export const subtextColor = '#a2a8c1';
+export const inactiveIconColor = '#c5cdda';
+export const borderColor = '#e2e4ec';
+export const borderColor2 = '#f2f4f6;';
+export const btnColor = '#fff';
+export const hoverColor = '#f3f5fc';
+export const tooltipBg = '#404260';
+export const tooltipColor = '#f7f9ff';
