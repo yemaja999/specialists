@@ -5,17 +5,14 @@ import * as serviceWorker from './serviceWorker';
 import {App} from './components/App';
 import OpenSans from './ui/fonts/OpenSans';
 import GlobalDefaults from './ui/GlobalDefaults';
-import {BrowserRouter as Router} from 'react-router-dom';
 import {Provider} from 'react-redux'
 import {store} from './store/store'
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router>
-            <OpenSans />
-            <GlobalDefaults />
-            <App />
-        </Router>
+        <OpenSans />
+        <GlobalDefaults />
+        <App />
     </Provider>,
     document.getElementById('root')
 );
