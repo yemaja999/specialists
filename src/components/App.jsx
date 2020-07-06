@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {AppStyled} from './styledComponents/AppStyled';
 import {Topbar} from './Topbar';
 import {Specialists} from '../pages/Specialists';
@@ -8,7 +8,10 @@ import SpecialistsList from '../mocks/specialists';
 
 export const App = () => {
     const dispatch = useDispatch();
-    dispatch(addAllSpecialistsAction({allSpecialists: SpecialistsList}));
+
+    useEffect(() => {
+        dispatch(addAllSpecialistsAction({allSpecialists: SpecialistsList}));
+    }, [dispatch]);
 
     return (
         <AppStyled>
