@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Erica Morrison",
+        "type": "optican",
+        "originalRank": 4.2,
+        "rank": 4.2,
+        "votes": 114,
+        "img": "assets/img/avatars/avatar1.png",
+        "userRating": 0,
+        "isFavorite": false
+    },
+    {
+        "id": 2,
+        "name": "David Scott",
+        "type": "dentist",
+        "originalRank": 4.9,
+        "rank": 4.9,
+        "votes": 36,
+        "img": "",
+        "userRating": 0,
+        "isFavorite": false
+    },
+    {
+        "id": 3,
+        "name": "Andrew Carter",
+        "type": "surgeon",
+        "originalRank": 4.9,
+        "rank": 4.9,
+        "votes": 36,
+        "img": "assets/img/avatars/avatar2.png",
+        "userRating": 0,
+        "isFavorite": false
+    },
+    {
+        "id": 4,
+        "name": "Jessica Sullivan",
+        "type": "oncologist",
+        "originalRank": 4.9,
+        "rank": 4.9,
+        "votes": 36,
+        "img": "",
+        "userRating": 0,
+        "isFavorite": false
+    }
+]
