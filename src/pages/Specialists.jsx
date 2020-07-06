@@ -13,7 +13,7 @@ export const Specialists = () => {
         <SpecialistsStyled>
             {!list || list.length <= 0
                 ? <div className='no-items'>No specialists found</div>
-                : list.map((item, index) => <SpecialistCard specialist={item} key={index} />)
+                : list.map((item, index) => <SpecialistCard specialist={item} index={index} key={index} />)
             }
         </SpecialistsStyled>
     );

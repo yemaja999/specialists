@@ -12,7 +12,7 @@ import {toggleIsFavoriteAction} from '../actions/toggleIsFavoriteAction';
 import {Tooltip} from './styledComponents/common/Tooltip';
 import {Avatar} from './Avatar';
 
-export const SpecialistCard = React.memo(function SpecialistCard({specialist}) {
+export const SpecialistCard = React.memo(function SpecialistCard({specialist, index}) {
     const dispatch = useDispatch();
 
     const toggleIsFavorite = () => {
@@ -30,6 +30,7 @@ export const SpecialistCard = React.memo(function SpecialistCard({specialist}) {
                 </Tooltip>
             </FavoriteIcon>
             <Avatar
+                index={index}
                 img={specialist.img}
                 name={specialist.name}
             />

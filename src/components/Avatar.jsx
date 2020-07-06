@@ -2,10 +2,10 @@ import React from 'react';
 import {AvatarStyled} from './styledComponents/common/AvatarStyled';
 import {shadeColor} from '../util/shadeColor';
 import {generateInitials} from '../util/generateInitials';
-import {randomColor} from '../util/randomColor';
+import {getColor} from '../util/getColor';
 
-export const Avatar =  React.memo(function({img, name}) {
-    const color = randomColor();
+export const Avatar =  React.memo(function({index, img, name}) {
+    const color = getColor(index);
 
     return (
         <AvatarStyled
