@@ -1,5 +1,5 @@
 const initialState = {
-    allSpecialists: {},
+    allSpecialists: {}
 };
 
 export const ApplicationReducer = (state = initialState, action) => {

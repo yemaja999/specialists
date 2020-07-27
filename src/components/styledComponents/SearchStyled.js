@@ -11,7 +11,8 @@ export const SearchStyled = styled.div `
     height: 50px;
     justify-content: flex-end;
     text-align: right;
-    width: 318px;
+    transition: all 0.3s ease;
+    width: ${props => props.isActive ? '318px' : '142px'};
     max-width: 30%;
 
     input {
@@ -26,8 +27,6 @@ export const SearchStyled = styled.div `
         overflow: hidden;
         padding: 0;
         text-overflow: ellipsis;
-        transition: all 0.3s ease;
-        width: ${props => props.isActive ? '100%' : '142px'};
 
         &::placeholder {
             color: ${subtextColor};
